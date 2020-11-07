@@ -15,7 +15,7 @@ function Direction({origin, destination}) {
   const [directionResponse, setDirectionResponse] = useState(null);
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyDzS9YcSBpjDqunij1wOfU_j9wExzDJYHA"
+      googleMapsApiKey="**********"
     >
       <GoogleMap
         mapContainerStyle={containerStyle}
